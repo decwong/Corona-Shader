@@ -1,0 +1,30 @@
+settings = {
+	orientation = {
+		default = "landscapeLeft",
+	},
+	iphone = {
+		plist = {
+			CFBundleIconFile = "Icon.png",
+	        CFBundleIconFiles = {
+	                "Icon.png" , 
+	                "Icon@2x.png" , 
+	                "Icon-72.png" ,
+	                "Icon-72@2x.png" , 
+ 
+	        },
+			UIAppFonts = {"LuckiestGuy-Regular.ttf"},
+            FacebookAppID = "423290827782969",
+            CFBundleURLTypes = {
+                {
+                CFBundleURLSchemes = { "fb423290827782969", }
+                }
+            }
+        }
+    },
+	android = {
+	
+		largeHeap = true,
+		
+		usesPermissions = {"android.permission.INTERNET",},
+	}        
+}     
